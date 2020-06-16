@@ -1,0 +1,2 @@
+questions
+-DCATKIN_DEVEL_PREFIX=/home/cona/sam/Baekjun/devel -DCMAKE_INSTALL_PREFIX=/home/cona/sam/Baekjun/install -G Unix Makefiles

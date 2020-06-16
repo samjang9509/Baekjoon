@@ -1,0 +1,8 @@
+prefix=/home/cona/sam/Baekjun/devel
+
+Name: questions
+Description: Description of questions
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: roscpp
