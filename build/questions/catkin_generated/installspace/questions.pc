@@ -1,4 +1,4 @@
-prefix=/home/samuel/Baekjoon/install
+prefix=/home/cona/sam/Baekjun/install
 
 Name: questions
 Description: Description of questions

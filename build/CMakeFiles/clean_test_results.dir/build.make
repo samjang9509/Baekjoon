@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/samuel/Baekjoon/src
+CMAKE_SOURCE_DIR = /home/cona/sam/Baekjun/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/samuel/Baekjoon/build
+CMAKE_BINARY_DIR = /home/cona/sam/Baekjun/build
 
 # Utility rule file for clean_test_results.
 
@@ -54,7 +54,7 @@ CMAKE_BINARY_DIR = /home/samuel/Baekjoon/build
 include CMakeFiles/clean_test_results.dir/progress.make
 
 CMakeFiles/clean_test_results:
-	/usr/bin/python2 /opt/ros/kinetic/share/catkin/cmake/test/remove_test_results.py /home/samuel/Baekjoon/build/test_results
+	/usr/bin/python2 /opt/ros/kinetic/share/catkin/cmake/test/remove_test_results.py /home/cona/sam/Baekjun/build/test_results
 
 clean_test_results: CMakeFiles/clean_test_results
 clean_test_results: CMakeFiles/clean_test_results.dir/build.make
@@ -71,6 +71,6 @@ CMakeFiles/clean_test_results.dir/clean:
 .PHONY : CMakeFiles/clean_test_results.dir/clean
 
 CMakeFiles/clean_test_results.dir/depend:
-	cd /home/samuel/Baekjoon/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/samuel/Baekjoon/src /home/samuel/Baekjoon/src /home/samuel/Baekjoon/build /home/samuel/Baekjoon/build /home/samuel/Baekjoon/build/CMakeFiles/clean_test_results.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/cona/sam/Baekjun/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/cona/sam/Baekjun/src /home/cona/sam/Baekjun/src /home/cona/sam/Baekjun/build /home/cona/sam/Baekjun/build /home/cona/sam/Baekjun/build/CMakeFiles/clean_test_results.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/clean_test_results.dir/depend
 

@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/samuel/Baekjoon/src
+CMAKE_SOURCE_DIR = /home/cona/sam/Baekjun/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/samuel/Baekjoon/build
+CMAKE_BINARY_DIR = /home/cona/sam/Baekjun/build
 
 # Utility rule file for rosgraph_msgs_generate_messages_py.
 
@@ -63,10 +63,10 @@ questions/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/build: rosgraph_msgs
 .PHONY : questions/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/build
 
 questions/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/clean:
-	cd /home/samuel/Baekjoon/build/questions && $(CMAKE_COMMAND) -P CMakeFiles/rosgraph_msgs_generate_messages_py.dir/cmake_clean.cmake
+	cd /home/cona/sam/Baekjun/build/questions && $(CMAKE_COMMAND) -P CMakeFiles/rosgraph_msgs_generate_messages_py.dir/cmake_clean.cmake
 .PHONY : questions/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/clean
 
 questions/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/depend:
-	cd /home/samuel/Baekjoon/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/samuel/Baekjoon/src /home/samuel/Baekjoon/src/questions /home/samuel/Baekjoon/build /home/samuel/Baekjoon/build/questions /home/samuel/Baekjoon/build/questions/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/cona/sam/Baekjun/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/cona/sam/Baekjun/src /home/cona/sam/Baekjun/src/questions /home/cona/sam/Baekjun/build /home/cona/sam/Baekjun/build/questions /home/cona/sam/Baekjun/build/questions/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : questions/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/depend
 
