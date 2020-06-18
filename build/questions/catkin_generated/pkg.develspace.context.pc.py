@@ -4,5 +4,5 @@ PROJECT_PKG_CONFIG_INCLUDE_DIRS = "".split(';') if "" != "" else []
 PROJECT_CATKIN_DEPENDS = "roscpp".replace(';', ' ')
 PKG_CONFIG_LIBRARIES_WITH_PREFIX = "".split(';') if "" != "" else []
 PROJECT_NAME = "questions"
-PROJECT_SPACE_DIR = "/home/cona/sam/Baekjun/devel"
+PROJECT_SPACE_DIR = "/home/samuel/Baekjoon/devel"
 PROJECT_VERSION = "0.0.0"

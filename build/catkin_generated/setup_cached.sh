@@ -7,7 +7,7 @@
 # new environment variables
 
 # modified environment variables
-export CMAKE_PREFIX_PATH="/home/cona/sam/Baekjun/devel:$CMAKE_PREFIX_PATH"
-export PWD="/home/cona/sam/Baekjun/build"
-export ROSLISP_PACKAGE_DIRECTORIES="/home/cona/sam/Baekjun/devel/share/common-lisp"
-export ROS_PACKAGE_PATH="/home/cona/sam/Baekjun/src:$ROS_PACKAGE_PATH"
+export CMAKE_PREFIX_PATH="/home/samuel/Baekjoon/devel:$CMAKE_PREFIX_PATH"
+export PWD="/home/samuel/Baekjoon/build"
+export ROSLISP_PACKAGE_DIRECTORIES="/home/samuel/Baekjoon/devel/share/common-lisp"
+export ROS_PACKAGE_PATH="/home/samuel/Baekjoon/src:$ROS_PACKAGE_PATH"
