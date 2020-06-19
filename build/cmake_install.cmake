@@ -1,8 +1,8 @@
-# Install script for directory: /home/samuel/Baekjoon/src
+# Install script for directory: /home/cona/sam/Baekjun/src
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/samuel/Baekjoon/install")
+  set(CMAKE_INSTALL_PREFIX "/home/cona/sam/Baekjun/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -44,89 +44,89 @@ endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/home/samuel/Baekjoon/install/_setup_util.py")
+   "/home/cona/sam/Baekjun/install/_setup_util.py")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/home/samuel/Baekjoon/install" TYPE PROGRAM FILES "/home/samuel/Baekjoon/build/catkin_generated/installspace/_setup_util.py")
+file(INSTALL DESTINATION "/home/cona/sam/Baekjun/install" TYPE PROGRAM FILES "/home/cona/sam/Baekjun/build/catkin_generated/installspace/_setup_util.py")
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/home/samuel/Baekjoon/install/env.sh")
+   "/home/cona/sam/Baekjun/install/env.sh")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/home/samuel/Baekjoon/install" TYPE PROGRAM FILES "/home/samuel/Baekjoon/build/catkin_generated/installspace/env.sh")
+file(INSTALL DESTINATION "/home/cona/sam/Baekjun/install" TYPE PROGRAM FILES "/home/cona/sam/Baekjun/build/catkin_generated/installspace/env.sh")
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/home/samuel/Baekjoon/install/setup.bash;/home/samuel/Baekjoon/install/local_setup.bash")
+   "/home/cona/sam/Baekjun/install/setup.bash;/home/cona/sam/Baekjun/install/local_setup.bash")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/home/samuel/Baekjoon/install" TYPE FILE FILES
-    "/home/samuel/Baekjoon/build/catkin_generated/installspace/setup.bash"
-    "/home/samuel/Baekjoon/build/catkin_generated/installspace/local_setup.bash"
+file(INSTALL DESTINATION "/home/cona/sam/Baekjun/install" TYPE FILE FILES
+    "/home/cona/sam/Baekjun/build/catkin_generated/installspace/setup.bash"
+    "/home/cona/sam/Baekjun/build/catkin_generated/installspace/local_setup.bash"
     )
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/home/samuel/Baekjoon/install/setup.sh;/home/samuel/Baekjoon/install/local_setup.sh")
+   "/home/cona/sam/Baekjun/install/setup.sh;/home/cona/sam/Baekjun/install/local_setup.sh")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/home/samuel/Baekjoon/install" TYPE FILE FILES
-    "/home/samuel/Baekjoon/build/catkin_generated/installspace/setup.sh"
-    "/home/samuel/Baekjoon/build/catkin_generated/installspace/local_setup.sh"
+file(INSTALL DESTINATION "/home/cona/sam/Baekjun/install" TYPE FILE FILES
+    "/home/cona/sam/Baekjun/build/catkin_generated/installspace/setup.sh"
+    "/home/cona/sam/Baekjun/build/catkin_generated/installspace/local_setup.sh"
     )
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/home/samuel/Baekjoon/install/setup.zsh;/home/samuel/Baekjoon/install/local_setup.zsh")
+   "/home/cona/sam/Baekjun/install/setup.zsh;/home/cona/sam/Baekjun/install/local_setup.zsh")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/home/samuel/Baekjoon/install" TYPE FILE FILES
-    "/home/samuel/Baekjoon/build/catkin_generated/installspace/setup.zsh"
-    "/home/samuel/Baekjoon/build/catkin_generated/installspace/local_setup.zsh"
+file(INSTALL DESTINATION "/home/cona/sam/Baekjun/install" TYPE FILE FILES
+    "/home/cona/sam/Baekjun/build/catkin_generated/installspace/setup.zsh"
+    "/home/cona/sam/Baekjun/build/catkin_generated/installspace/local_setup.zsh"
     )
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/home/samuel/Baekjoon/install/.rosinstall")
+   "/home/cona/sam/Baekjun/install/.rosinstall")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/home/samuel/Baekjoon/install" TYPE FILE FILES "/home/samuel/Baekjoon/build/catkin_generated/installspace/.rosinstall")
+file(INSTALL DESTINATION "/home/cona/sam/Baekjun/install" TYPE FILE FILES "/home/cona/sam/Baekjun/build/catkin_generated/installspace/.rosinstall")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/home/samuel/Baekjoon/build/gtest/cmake_install.cmake")
-  include("/home/samuel/Baekjoon/build/questions/cmake_install.cmake")
+  include("/home/cona/sam/Baekjun/build/gtest/cmake_install.cmake")
+  include("/home/cona/sam/Baekjun/build/questions/cmake_install.cmake")
 
 endif()
 
@@ -138,5 +138,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/samuel/Baekjoon/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/cona/sam/Baekjun/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

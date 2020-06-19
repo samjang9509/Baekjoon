@@ -1,8 +1,8 @@
-# Install script for directory: /home/samuel/Baekjoon/src/questions
+# Install script for directory: /home/cona/sam/Baekjun/src/questions
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/samuel/Baekjoon/install")
+  set(CMAKE_INSTALL_PREFIX "/home/cona/sam/Baekjun/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -33,17 +33,17 @@ if(NOT DEFINED CMAKE_INSTALL_SO_NO_EXE)
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/samuel/Baekjoon/build/questions/catkin_generated/installspace/questions.pc")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/cona/sam/Baekjun/build/questions/catkin_generated/installspace/questions.pc")
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/questions/cmake" TYPE FILE FILES
-    "/home/samuel/Baekjoon/build/questions/catkin_generated/installspace/questionsConfig.cmake"
-    "/home/samuel/Baekjoon/build/questions/catkin_generated/installspace/questionsConfig-version.cmake"
+    "/home/cona/sam/Baekjun/build/questions/catkin_generated/installspace/questionsConfig.cmake"
+    "/home/cona/sam/Baekjun/build/questions/catkin_generated/installspace/questionsConfig-version.cmake"
     )
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/questions" TYPE FILE FILES "/home/samuel/Baekjoon/src/questions/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/questions" TYPE FILE FILES "/home/cona/sam/Baekjun/src/questions/package.xml")
 endif()
 
