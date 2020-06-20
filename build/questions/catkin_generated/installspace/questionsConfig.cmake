@@ -67,14 +67,14 @@ set(questions_CONFIG_INCLUDED TRUE)
 
 # set variables for source/devel/install prefixes
 if("FALSE" STREQUAL "TRUE")
-  set(questions_SOURCE_PREFIX /home/cona/sam/Baekjun/src/questions)
-  set(questions_DEVEL_PREFIX /home/cona/sam/Baekjun/devel)
+  set(questions_SOURCE_PREFIX /home/samuel/Baekjoon/src/questions)
+  set(questions_DEVEL_PREFIX /home/samuel/Baekjoon/devel)
   set(questions_INSTALL_PREFIX "")
   set(questions_PREFIX ${questions_DEVEL_PREFIX})
 else()
   set(questions_SOURCE_PREFIX "")
   set(questions_DEVEL_PREFIX "")
-  set(questions_INSTALL_PREFIX /home/cona/sam/Baekjun/install)
+  set(questions_INSTALL_PREFIX /home/samuel/Baekjoon/install)
   set(questions_PREFIX ${questions_INSTALL_PREFIX})
 endif()
 
@@ -154,7 +154,7 @@ foreach(library ${libraries})
     set(lib_path "")
     set(lib "${library}-NOTFOUND")
     # since the path where the library is found is returned we have to iterate over the paths manually
-    foreach(path /home/cona/sam/Baekjun/install/lib;/opt/ros/kinetic/lib)
+    foreach(path /home/samuel/Baekjoon/install/lib;/opt/ros/kinetic/lib)
       find_library(lib ${library}
         PATHS ${path}
         NO_DEFAULT_PATH NO_CMAKE_FIND_ROOT_PATH)

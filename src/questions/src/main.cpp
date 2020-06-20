@@ -2,25 +2,19 @@
 
 int main()
 {
-    std::ios_base::sync_with_stdio(false);
-    std::cin.tie(NULL);
-    int a, b, c;
+    int a, b,;
 
-    std::cin >> a >> b;
-
-    
-
-    for (int i = 1; i <= a; i++)
+    for (int i = 0; i < 5; i++)
     {
-        int N[c];
-        std::cin >> c;
+        std::cin >> a;
 
-        if (N[c] < b)
+        if (a < 40)
         {
-            std::cout << c;
-            std::cout << '\n';
-        };
+            a = 40;
+        }
+        int N[a];
+        int sum = 0;
+        
+        std::cout << sum / 5 << std::endl;
     }
-
-    return 0;
 }
